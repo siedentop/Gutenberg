@@ -60,12 +60,9 @@ class Book():
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="%sfileadmin/gb_css/prosa.css" />
-<link rel="stylesheet" type="text/css" href="%sfileadmin/template/main/gb_menu/css/info.css" />
-<link rel="stylesheet" type="text/css" href="%sfileadmin/template/main/css/gb_style.css" />
-<link rel="stylesheet" type="text/css" href="%sfileadmin/template/main/css/gb_style0.css" />
 </head>
 <body>
-<div id=gb_contentl>''' % (self.base_url, self.base_url, self.base_url, self.base_url)
+<div id=gb_contentl>''' % (self.base_url)
 		footer = '''</div>
 </body>
 </html>'''
