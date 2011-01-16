@@ -77,7 +77,6 @@ class Book():
 		pass
 
 if __name__=='__main__':
-	book = Book(book_id = 2418)
-	#book.download()
-	book.filename_tmp = 'gutenberg_book_2418.html.tmp'
+	book = Book(book_id = 2418) #2418 is Kabale und Liebe von Schiller
+	book.download()
 	book.save_as('Kabale_und_Liebe.html')
